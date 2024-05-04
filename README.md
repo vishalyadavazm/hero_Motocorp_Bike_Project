@@ -17,7 +17,7 @@ This project aims to develop a web application for managing Hero MotoCorp's bike
 - Frontend: HTML, CSS, 
 - Backend: python, Flask
 - Database: mysql
-- Version Control: Git, GitHub
+
 
 ## Home
 ![home1](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/770a8f62-7524-49e5-884f-d59d1e9eba0d)
