@@ -19,7 +19,7 @@ This project aims to develop a web application for managing Hero MotoCorp's bike
 - Database: mysql
 - Version Control: Git, GitHub
 
-##Home_Page
+## Home
 ![home1](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/770a8f62-7524-49e5-884f-d59d1e9eba0d)
 ![home2](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/4cf9be5b-0bcb-44e9-a436-826b91507296)
 ![home3](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/df05938e-fe26-4070-96f8-0f52902fa71f)
