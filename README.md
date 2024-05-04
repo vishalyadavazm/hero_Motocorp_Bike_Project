@@ -27,13 +27,13 @@ This project aims to develop a web application for managing Hero MotoCorp's bike
 ![home4](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/b71c2f83-59b2-4cb5-9624-17c657796e74)
 ![home5](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/67ec2641-a6c9-4576-a6ec-cbcbb3febebf)
 
-#Login
+## LOGIN
 ![login](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/b04a5f9e-7299-4902-8e14-33a55c9ce7a2)
-#singUp
+## SINGUP
 
 
 ![singup](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/a61a6e95-8dae-4559-9414-816c5e1aac95)
-#service
+## SERVICE
 
 ![service](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/5fccea39-e964-498f-bd70-01da487556c7)
 
