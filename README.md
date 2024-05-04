@@ -9,7 +9,7 @@ This project aims to develop a web application for managing Hero MotoCorp's bike
 ## Features
 
 - **Login**: Allow customers to login.
-- **Service**: Provide real-time updates on the status of bike service.
+- **Service**: Provide real-time  bike service .
 - **Sing_up**: Manage customer information, including service history and contact details.
 
 ## Technologies Used
