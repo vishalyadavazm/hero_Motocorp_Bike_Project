@@ -1,0 +1,239 @@
+.nav{
+
+
+}
+.b{
+  background-color: #020202;
+}
+.Header{
+	justify-content:space-between;
+	display: flex;
+	margin-right:0px;
+	background-color:#000000d8;
+}
+li
+{
+
+	list-style: none;
+	float: left;
+	font-family:sans
+    font-size: 15px;
+    padding-right:30px;
+    padding-top: 0px;
+    margin-top: 0px;
+
+
+
+
+
+}
+li a
+{
+	text-decoration: none;
+	 padding: 8px;
+	 color: rgb(255, 255, 255);
+
+}
+li a:hover
+ {
+     background-color:rgba(0, 85, 83, 0.0);
+     color:rgb(255, 197, 6);
+ }
+
+.logo{
+	height: 50px
+
+}
+ .bgImage
+ {
+     margin-left: 0%;
+     margin-top:0px;
+     width: 100%;
+     height: 600px;
+     position: relative;
+
+ }
+.txt{
+
+    position: absolute;
+    top:15%;
+    margin-top:100px;
+    margin-left:2%;
+    font-size: 3rem;
+    font-weight: bolder;
+    color:white;
+    text-shadow: 2px 2px 4px rgb(0, 85, 83, 0.3);
+}
+
+.txt1
+{
+	font-size:1rem;
+	font-weight:lighter;
+	 text-shadow: 0px 0px 0px rgb(254, 255, 255);
+
+
+}
+
+
+/* Basic styles for the card layout */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(238, 189, 29, 0.759);
+    transition: 0.3s;
+    width: 400px;
+    height: 400px;
+    color: #ffcc00;
+    border-radius: 5px;
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+    margin: 20px;
+    float: left;
+  }
+
+  /* Hover effect for the cards */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  /* Card content styling */
+  .card-content {
+    padding: 10px;
+  }
+
+
+.cardImg
+{
+	height: 220px;
+  width: 360px;
+  margin-bottom: 8px;
+
+
+
+}
+
+.yellow-button {
+    background-color:rgb(255, 197, 6);; /* Yellow color */
+    border: none;
+    color: #ffffff; /* White text */
+    padding: 5px 20px; /* Padding around text */
+
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 13px;
+    cursor: pointer;
+     /* Rounded corners */
+  }
+  .yellow-button:hover {
+    background-color:rgb(255, 197, 6);; /* Lighter yellow on hover */
+  }
+
+  .yellow-border-button {
+    background-color: transparent; /* Transparent background */
+    border: 2px solid hsl(60, 100%, 100%); /* Yellow border */
+    color: #fff; /* White text */
+    padding: 5px 10px; /* Padding around text */
+    text-align: center;
+
+    margin-bottom: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+  }
+    .yellow-border-button:hover {
+        background-color: #ffcc00; /* Yellow background on hover */
+        color: #fff; /* White text on hover */
+      }
+
+
+      footer {
+        background-color: #181818;
+        color: white;
+        padding: 10px;
+        margin-top: 2px;
+    }
+
+    .footer-details {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .footer-column {
+        flex: 1;
+        padding: 0 20px;
+    }
+
+    .footer-column h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .footer-column ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-column ul li {
+        margin-bottom: 5px;
+    }
+
+    .footer-column ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer-column ul li a:hover {
+        text-decoration: underline;
+    }
+
+    /* Signup form css*/
+.form1{
+  border: 4px solid rgb(255, 255, 255);
+  font-size:1.2rem;
+
+  font-family:Arial, Helvetica, sans-serif;
+  color:rgb(255, 255, 255);
+  width: 400px;
+  height: 520px;
+  margin-left: 450px;
+  margin-top: 120px;
+  padding-left:30px;
+  padding-top:10px;
+  align-items: center;
+
+  position: absolute;
+  top: 0%;
+}
+.input
+{
+  height: 30px;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+h3{
+  padding-left: 150px;
+
+
+
+}
+.btnLogin
+{
+
+  margin-left:25px;
+  margin-top: 15px;
+  border-radius: 9px;
+  width: 70%;
+  height: 30px;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+
+
+}
+button:hover
+{
+  background-color: rgb(221, 177, 0);
+  color: white;
+}

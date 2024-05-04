@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HOME</title>
+<link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+</head>
+<body class="b">
+<form action="">
+
+<nav class="Header">
+
+<div class="page-1">
+   <img src="{{ url_for('static',filename='image/hero.png') }}" class="logo">
+</div>
+<div>
+
+<ul>
+<li><a href="/" target="self">HOME</a></li>
+<li><a href="#newlunch" target="self">NEW LAUNCHES</a></li>
+<li><a href="#moto" target="self">MOTORCYCLES</a></li>
+<li><a href="/service" target="self">SERVICES</a></li>
+<li><button class="yellow-button" class="yellow-border-button"><a href="/login" class="yellow-button" class="yellow-border-button" >LOGIN</a></a></button></li>
+<li><button class="yellow-button"><a href="">BOOK NOW</a></a></button></li>
+</ul>
+</div>
+
+
+</nav>
+
+</form>
+
+<div>
+    <img src="{{ url_for('static',filename='image/HERO-YELLO-BACK.png') }}" class="bgImage">
+</div>
+
+<div>
+    <img src="{{ url_for('static',filename='image/SECOND-BACK.png') }}" class="bgImage">
+</div>
+<section class="newlunch" id="newlunch">
+<div class="card">
+   <div class="card-content">
+    <p>Hero Karizma XMR </p>
+     <p>TURBO RED</p>
+     <img src="{{ url_for('static',filename='image/TURBO-red.png') }}" class="cardImg">
+   </div>
+ </div>
+
+ <div class="card">
+   <div class="card-content">
+    <p>Hero Karizma XMR</p>
+    <p>TURBO YELLOW</p>
+     <img src="{{ url_for('static',filename='image/turbo-yellow.png') }}" class="cardImg">
+   </div>
+ </div>
+
+ <div class="card">
+  <div class="card-content">
+   <p>Hero Karizma XMR</p>
+   <p>MATTE PHANTOM BLACK</p>
+    <img src="{{ url_for('static',filename='image/TURBO-BLACK.png') }}" class="cardImg">
+  </div>
+</div>
+</section>
+<section class="moto" id="moto">
+<div>
+    <img src="{{ url_for('static',filename='image/BOTTOM-BACKGROUND.png') }}" class="bgImage">
+</div>
+</section>
+<footer>
+    <div class="footer-details">
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>Email: .com</p>
+            <p>Phone: +1234567890</p>
+        </div>
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Address</h3>
+            <p>Delhi</p>
+            <p>Delhi,India</p>
+        </div>
+    </div>
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
