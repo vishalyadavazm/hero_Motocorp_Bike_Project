@@ -4,20 +4,17 @@ Welcome to the Hero MotoCorp project repository!
 
 ## Overview
 
-This project aims to develop a web application for managing Hero MotoCorp's bike service operations. The application will provide features such as appointment scheduling, bike service tracking, customer management, inventory management, and reporting.
+This project aims to develop a web application for managing Hero MotoCorp's bike service operations. The application will provide features such as appointment scheduling, bike service ,
 
 ## Features
 
-- **Appointment Scheduling**: Allow customers to schedule service appointments online.
-- **Service Tracking**: Provide real-time updates on the status of bike service.
-- **Customer Management**: Manage customer information, including service history and contact details.
-- **Inventory Management**: Track spare parts and inventory levels for efficient service operations.
-- **Reporting**: Generate reports on service performance, revenue, and customer satisfaction.
+- **Login**: Allow customers to login.
+- **Service**: Provide real-time updates on the status of bike service.
+- **Sing_up**: Manage customer information, including service history and contact details.
 
 ## Technologies Used
 
-- Frontend: HTML, CSS, JavaScript, React.js
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- Authentication: JSON Web Tokens (JWT)
+- Frontend: HTML, CSS, 
+- Backend: python, Flask
+- Database: mysql
 - Version Control: Git, GitHub
