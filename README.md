@@ -36,7 +36,7 @@ This project aims to develop a web application for managing Hero MotoCorp's bike
 ## SERVICE
 
 ![service](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/5fccea39-e964-498f-bd70-01da487556c7)
-## Admin panal
+## ADMIN PANEL
 ![admin1](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/a0298519-47d3-41f7-95b8-ed84c3802fae)
 
 ![admin2](https://github.com/vishalyadavazm/hero_Motocorp_Bike_Project/assets/93594891/5e914ee2-9432-4f31-b375-ca67b2bcaa8a)
