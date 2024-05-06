@@ -1,10 +1,10 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>SIGN_UP</title>
-<link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+<title>file_upload</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
 </head>
 <body class="b">
 <form action="">
@@ -13,16 +13,17 @@
 
 <div class="page-1">
    <img src="{{ url_for('static',filename='image/hero.png') }}" class="logo">
+
 </div>
+    <div>
+        <p class="welcome"> Welcome to Admin page, {{ username }}</p>
+    </div>
 <div>
 
 <ul>
 <li><a href="/" target="self">HOME</a></li>
-<li><a href="#" target="self">NEW LAUNCHES</a></li>
-<li><a href="#" target="self">MOTORCYCLES</a></li>
-<li><a href="/service" target="self">SERVICES</a></li>
-<li><button class="yellow-button" class="yellow-border-button"><a href="/login">LOGIN</a></a></button></li>
-<li><button class="yellow-button"><a href="">BOOK NOW</a></a></button></li>
+<li><a href="/download_service_requests_csv" target="self">Download Service_Request</a></li>
+<li><a href="/csv_upload">Upload csv</a></li>
 </ul>
 </div>
 
@@ -32,43 +33,25 @@
 </form>
 
 <div>
-    <img src="{{ url_for('static',filename='image/hero-background.jpg') }}" class="bgImage">
+    <img src="{{ url_for('static',filename='image/bannerfile.jpeg') }}" class="bgImage">
     <div class="form1">
-        <form action="/register" method="post">
-        <div class="login">
-
-            <div>
-                <h3>SIGN UP</h3>
-            </div>
-            <div>
-                <p style="color:rgb(255, 197, 6) ;">{{ error }}</p>
-            </div>
-        </div>
-        <label for="name">Enter Your Name</label>
+       <h2>Upload CSV File</h2>
+             {% if error %}
+        <p style="color:rgb(255, 197, 6) ;">{{ error }}</p>
+             {% endif %}
+    <form action="/csv_file" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv" required>
+        <br>
+        <br>
         <div>
-        <input class="input" type="text" name="name" id="name" placeholder="Enter your name" value="" required/>
-    </div>
-    <label for="password">Enter Password</label>
-    <div>
-        <input class="input"  type="text" name="password"placeholder="Enter Pasword" required/>
-    </div>
-    <label for="email">Enter Email</label>
-    <div>
-        <input class="input"  type="text" name="email"  placeholder="Enter Pasword" required/>
-    </div>
-    <label for="mobile">Mobile Number</label>
-    <div>
-        <input class="input"  type="text" name="mobile"  placeholder="Enter Pasword" required/>
-    </div>
-
-    <button type="submit" class="btnLogin">SIGN UP</button>
-</form>
+        <button type="submit" class="yellow-button">Upload</button>
+            </div>
+    </form>
 </div>
 
 <div>
-    <img src="{{ url_for('static',filename='image/SECOND-BACK.png') }}" class="bgImage">
+   <img src="{{ url_for('static',filename='image/SECOND-BACK.png') }}" class="bgImage">
 </div>
-
 <div class="card">
    <div class="card-content">
     <p>Hero Karizma XMR </p>

@@ -40,13 +40,16 @@
             <div>
                 <h3>Service</h3>
             </div>
+               {% if error %}
+        <p style="color:rgb(255, 197, 6) ;">{{ error }}</p>
+             {% endif %}
         </div>
         <label for="name">Enter Your Name</label>
         <div>
         <input class="input" type="text" name="name" id="name" placeholder="Enter your name" value="" required/>
     </div>
 
-    <label for="mobile">Mobile Numbar</label>
+    <label for="mobile">Mobile Number</label>
     <div>
         <input class="input"  type="text" name="mobile"  placeholder="Enter Pasword" required/>
     </div>
@@ -72,7 +75,7 @@
       <input type="file" name="file" id="file">
     </div>
 
-    <button type="submit" class="btnLogin">Login</button>
+    <button type="submit" class="btnLogin">SUBMIT</button>
 </form>
 </div>
 

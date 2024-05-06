@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>SIGN_UP</title>
+<title>HOME</title>
 <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
 </head>
 <body class="b">
 <form action="">
@@ -13,15 +13,18 @@
 
 <div class="page-1">
    <img src="{{ url_for('static',filename='image/hero.png') }}" class="logo">
+
 </div>
+    <div>
+        <p class="welcome"> Welcome, {{ username }}</p>
+    </div>
 <div>
 
 <ul>
 <li><a href="/" target="self">HOME</a></li>
-<li><a href="#" target="self">NEW LAUNCHES</a></li>
-<li><a href="#" target="self">MOTORCYCLES</a></li>
+<li><a href="#newlunch" target="self">NEW LAUNCHES</a></li>
+<li><a href="#moto" target="self">MOTORCYCLES</a></li>
 <li><a href="/service" target="self">SERVICES</a></li>
-<li><button class="yellow-button" class="yellow-border-button"><a href="/login">LOGIN</a></a></button></li>
 <li><button class="yellow-button"><a href="">BOOK NOW</a></a></button></li>
 </ul>
 </div>
@@ -32,43 +35,14 @@
 </form>
 
 <div>
-    <img src="{{ url_for('static',filename='image/hero-background.jpg') }}" class="bgImage">
-    <div class="form1">
-        <form action="/register" method="post">
-        <div class="login">
-
-            <div>
-                <h3>SIGN UP</h3>
-            </div>
-            <div>
-                <p style="color:rgb(255, 197, 6) ;">{{ error }}</p>
-            </div>
-        </div>
-        <label for="name">Enter Your Name</label>
-        <div>
-        <input class="input" type="text" name="name" id="name" placeholder="Enter your name" value="" required/>
-    </div>
-    <label for="password">Enter Password</label>
-    <div>
-        <input class="input"  type="text" name="password"placeholder="Enter Pasword" required/>
-    </div>
-    <label for="email">Enter Email</label>
-    <div>
-        <input class="input"  type="text" name="email"  placeholder="Enter Pasword" required/>
-    </div>
-    <label for="mobile">Mobile Number</label>
-    <div>
-        <input class="input"  type="text" name="mobile"  placeholder="Enter Pasword" required/>
-    </div>
-
-    <button type="submit" class="btnLogin">SIGN UP</button>
-</form>
+    <img src="{{ url_for('static',filename='image/HERO-YELLO-BACK.png') }}" class="bgImage">
 </div>
 
 <div>
     <img src="{{ url_for('static',filename='image/SECOND-BACK.png') }}" class="bgImage">
 </div>
 
+<section class="newlunch" id="newlunch">
 <div class="card">
    <div class="card-content">
     <p>Hero Karizma XMR </p>
@@ -92,11 +66,12 @@
     <img src="{{ url_for('static',filename='image/TURBO-BLACK.png') }}" class="cardImg">
   </div>
 </div>
-
+</section>
+<section class="moto" id="moto">
 <div>
     <img src="{{ url_for('static',filename='image/BOTTOM-BACKGROUND.png') }}" class="bgImage">
 </div>
-
+</section>
 <footer>
     <div class="footer-details">
         <div class="footer-column">
